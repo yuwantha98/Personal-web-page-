@@ -168,6 +168,10 @@ button:focus {
   transform: translateX(-50%) translateY(-50%);
 }
 
+#ABC {
+  width: 95%;
+}
+
 /*----------------------------------------------------*/
 
 .features_area {
@@ -237,9 +241,9 @@ button:focus {
       .nav-item {
         margin-right: 45px;
         .nav-link {
-          font: 500 14px/100px $title-font;
+          font: 500 14px/100px title-font;
           text-transform: uppercase;
-          color: $title-color;
+          color: title-color;
           padding: 0px;
           display: inline-block;
           &:after {
@@ -249,7 +253,7 @@ button:focus {
         &:hover,
         &.active {
           .nav-link {
-            color: $primary-color;
+            color: primary-color;
           }
         }
         &.submenu {
@@ -299,7 +303,7 @@ button:focus {
               transition: all 0.4s linear;
               .nav-link {
                 line-height: 45px;
-                color: $title-color;
+                color: title-color;
                 padding: 0px 30px;
                 transition: all 150ms linear;
                 display: block;
@@ -402,7 +406,7 @@ button:focus {
             .nav-item {
               .nav-link {
                 line-height: 70px;
-                color: $title-color;
+                color: title-color;
               }
             }
           }
